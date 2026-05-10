@@ -3,48 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monadeng 的精神角落</title>
+    <title>Monadeng's Blog</title>
     <style>
-        /* 极简主义设计风格 */
+        /* 全局样式：奉行绝对的极简与克制 */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #fafafa;
-            color: #333;
-            line-height: 1.8;
-            max-width: 600px;
-            margin: 80px auto;
-            padding: 20px;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.7;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 80px 24px;
         }
-        h1 {
-            font-size: 1.8rem;
+
+        /* 网站顶部 Logo/标题 */
+        header {
+            margin-bottom: 60px;
+        }
+        .site-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #111;
+            text-decoration: none;
+        }
+        .site-subtitle {
+            font-size: 0.9rem;
+            color: #86868b;
+            margin-top: 5px;
+        }
+
+        /* 分割线 */
+        .divider {
+            height: 1px;
+            background-color: #f2f2f2;
+            margin: 40px 0;
+        }
+
+        /* 文章列表布局 */
+        .post-list {
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+        }
+
+        /* 单篇文章卡片 */
+        .post-item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* 文章元信息：日期与标签 */
+        .post-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.85rem;
+            color: #86868b;
+        }
+
+        /* 分类小标签（模仿截图中的精致感） */
+        .tag {
+            background-color: #f5f5f7;
+            color: #515154;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
             font-weight: 500;
-            margin-bottom: 30px;
-            border-bottom: 1px solid #eaeaea;
-            padding-bottom: 10px;
         }
-        p {
-            font-size: 1rem;
-            color: #555;
+
+        .post-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin: 0;
+            letter-spacing: -0.01em;
         }
+
+        .post-excerpt {
+            font-size: 0.95rem;
+            color: #48484a;
+            margin: 5px 0 0 0;
+        }
+
+        /* 底部版权信息 */
         footer {
-            margin-top: 60px;
+            margin-top: 100px;
             font-size: 0.8rem;
-            color: #999;
-            border-top: 1px solid #eaeaea;
-            padding-top: 10px;
+            color: #86868b;
+            border-top: 1px solid #f2f2f2;
+            padding-top: 20px;
         }
     </style>
 </head>
 <body>
 
-    <h1>Monadeng's Corner</h1>
-    
-    <p>平静你的灵魂，让河流顺其自然。</p>
-    
-    <p>这是我利用 GitHub Pages 搭建的第一个极简个人网页。在这里，我记录编程的乐趣、理性的思考，以及一些关于 detachment 的瞬间。</p>
-    <h2>2026年5月10日 · 在云端留下脚印</h2>
-    <p>今天，我成功拥有了属于自己的极简网站。当看到那行“平静你的灵魂，让河流顺其自然”完美呈现在网页上时，心里有一种久违的踏实。代码的世界虽然一开始有些喧嚣，但只要静下心来，它也会回报你最纯粹的秩序与美感。</p>
+    <header>
+        <a href="#" class="site-title">Monadeng.Blog</a>
+        <div class="site-subtitle">平静你的灵魂，让河流顺其自然。</div>
+    </header>
 
+    <div class="divider"></div>
+
+    <main class="post-list">
+
+        <article class="post-item">
+            <div class="post-meta">
+                <span class="tag">思考</span>
+                <time datetime="2026-05-10">2026 年 5 月 10 日</time>
+            </div>
+            <h2 class="post-title">在云端留下脚印</h2>
+            <p class="post-excerpt">
+                今天，我成功拥有了属于自己的极简网站。当看到那行诗句完美呈现在网页上时，心里有一种久违的踏实。代码的世界虽然一开始有些喧嚣，但只要静下心来，它也会回报你最纯粹的秩序与美感。
+            </p>
+        </article>
+
+        <article class="post-item">
+            <div class="post-meta">
+                <span class="tag">技术</span>
+                <time datetime="2026-05-09">2026 年 5 月 09 日</time>
+            </div>
+            <h2 class="post-title">你好，GitHub Pages</h2>
+            <p class="post-excerpt">
+                这是我的第一篇测试发布。利用 GitHub 托管静态网页，不仅免去了服务器的烦恼，更让我体会到了自主搭建属于自己的“精神角落”的乐趣。
+            </p>
+        </article>
+
+    </main>
     <footer>
         © 2026 Monadeng. Powered by GitHub Pages.
     </footer>
