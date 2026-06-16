@@ -9,3 +9,8 @@ I am rooted but I flow.
 我的防守代码：if len(user_input)>5: exit()
 系统终极外挂：Canary（金丝雀）：在座位中间放个随机暗号，被淹没直接拉响警报闪退。
 ASLR：每次开机直接把座位号顺序打乱，让黑客找不着北。
+# 英语
+形容词/副词+as+主+谓（be/助动词），主句（正常顺序）“尽管……”（不加but）
+invulnerable/robust“坚固的” cybersecurity systems“网络安全系统” be vulnerable to“易受到……的攻击“ novel“新型的，未知的” viruses“病毒”
+It is universally acknowledged that+核心名词，from/through which+定语从句，+核心谓语.（核心名词与核心谓语是一起的）
+Advanced Mathematics"高等数学“ discipline"学科，专业，纪律“ tremendously"极大地，极其“ logical"符合逻辑的“
