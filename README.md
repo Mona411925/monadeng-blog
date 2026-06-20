@@ -14,3 +14,5 @@ ASLR：每次开机直接把座位号顺序打乱，让黑客找不着北。
 invulnerable/robust“坚固的” cybersecurity systems“网络安全系统” be vulnerable to“易受到……的攻击“ novel“新型的，未知的” viruses“病毒”
 It is universally acknowledged that+核心名词，from/through which+定语从句，+核心谓语.（核心名词与核心谓语是一起的）
 Advanced Mathematics"高等数学“ discipline"学科，专业，纪律“ tremendously"极大地，极其“ logical"符合逻辑的“
+# 导数
+导数为啥是变化率呢？当边长增量无限微小，面积的近似增量（微分）等于面积函数的导数乘以边长微小增量dx。导数本身只代表变化快慢，不等于新增面积。
